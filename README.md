@@ -288,7 +288,7 @@ outputs/touchanything/<object>/
 Subset JSON files are created only when enough frames are available. Each
 references the first N FPS-ordered contacts; the full `meta_data.json` references
 all exported frames. Paths in JSON are relative to the object directory.
-The metadata includes the `OPENCV` camera model, 3 x 3 intrinsics, 4 x 4
+The metadata includes the `OPENCV` camera model, 4 x 4 intrinsics, 4 x 4
 camera-to-world transforms, depth/normal/mask paths, and scene bounds.
 
 The exporter uses black RGB placeholder images: tactile RGB is used for geometry

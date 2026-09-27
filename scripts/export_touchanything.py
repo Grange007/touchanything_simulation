@@ -523,7 +523,7 @@ def format_to_sdf(args):
             "rgb_path": f"{file_id}_rgb.png",
             # [Modified] 保存缩放后的相机位姿
             "camtoworld": world_T_cam.tolist(),
-            "intrinsics": K[:3, :3].tolist(),
+            "intrinsics": K.tolist(),
             "mono_depth_path": f"{file_id}_depth.npy",
             "mono_normal_path": f"{file_id}_normal.npy",
             "foreground_mask": f"{file_id}_foreground_mask.png"
