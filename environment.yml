@@ -1,0 +1,8 @@
+name: touchanything-sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.25
+  - pip
+# After creation, install a CPU/CUDA PyTorch build and requirements.txt as
+# described in README.md. Keeping this separate permits selecting the GPU build.

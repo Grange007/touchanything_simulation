@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.DS_Store
+data/
+outputs/
+checkpoints/
+wandb/
+scripts/wandb/
+scripts/bg_processed.png
+scripts/f0.png
+*.tar.gz
+*.pth
